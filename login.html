@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Login</title>
+  </head>
+  <body>
+      <div class="navigation1">
+        <div class="nav-center container d-flex">
+        <a href="/" class="logo"><img src="/images/logo.png" width="100px"></a>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Produtos</a>
+            </li>
+            <li class="nav-item">
+            <a href="cadastro.html" class="nav-link">Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a href="fale.html" class="nav-link">Fale Conosco</a>
+            </li>
+            <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+          </ul>
+
+          <div class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </div>
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </div>
+      </div>
+    <!-- Login -->
+    <div class="container">
+      <div class="login-form">
+        <form action="">
+          <h1>Login</h1>
+          <p>
+            já tem uma conta? Acesse ou
+            <a href="cadastro.html">cadastre-se</a>
+          </p>
+
+          <label for="email">Email</label>
+          <input type="text" placeholder="Enter Email" name="email" required />
+
+          <label for="psw">Senha</label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+            required
+          />
+
+          <label for="psw-repeat">Repita a Senha</label>
+          <input
+            type="password"
+            placeholder="Repeat Password"
+            name="psw-repeat"
+            required
+          />
+
+          <label>
+            <input
+              type="checkbox"
+              checked="checked"
+              name="remember"
+              style="margin-bottom: 15px"
+            />
+            Manter Conectado
+          </label>
+
+          <p>
+            Ao criar uma conta, você concorda com nossos 
+            <a href="#">Termos e Privacidade</a>.
+          </p>
+
+          <div class="buttons">
+            <button type="button" class="cancelbtn">Cancelar</button>
+            <button type="submit" class="signupbtn">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMAÇÕES</h4>
+          <a href="">Sobre Nós</a>
+          <a href="">Cadastro</a>
+          <a href="">Termos & Condições</a>
+          <a href="">Endereço</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="">Online Store</a>
+          <a href="">Customer Services</a>
+          <a href="">Promotion</a>
+          <a href="">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class='bx bxl-facebook-square'></i></span>
+          <span><i class='bx bxl-instagram-alt' ></i></span>
+          <span><i class='bx bxl-github' ></i></span>
+          <span><i class='bx bxl-twitter' ></i></span>
+          <span><i class='bx bxl-pinterest' ></i></span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+  </body>
+</html>

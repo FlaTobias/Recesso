@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Box icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Detalhes do Produto</title>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="header" id="header">
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+        <a href="/" class="logo"><img src="/images/logo.png" width="100px"></a>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="/" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Produtos</a>
+            </li>
+            <li class="nav-item">
+            <a href="cadastro.html" class="nav-link">Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">Sobre nós</a>
+            </li>
+            <li class="nav-item">
+              <a href="fale.html" class="nav-link">Fale Conosco</a>
+            </li>
+            <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+          </ul>
+
+          <div class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </div>
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </div>
+      </div>
+
+    <!-- Product Details -->
+    <section class="section product-detail">
+      <div class="details container">
+        <div class="left image-container">
+          <div class="main">
+            <img src="./images/about-image.png"  alt="" />
+          </div>
+        </div>
+        <div class="right">
+          <span>Home/Sobre nós</span>
+          <h1>Sobre Nós</h1>
+          <p>A Loren Moda Feminina é uma loja de roupas  que oferece aos seus clientes uma experiência única de compras.
+             Nós acreditamos que as mulheres merecem ter acesso a roupas de qualidade, modernas e a preços acessíveis.
+            Nossa missão é oferecer aos nossos clientes uma variedade de estilos e opções que atendam às suas necessidades
+             e desejos. Nós trabalhamos com alguns dos melhores designers do mundo para criar peças únicas e modernas que se encaixam em qualquer estilo.
+            Nossa equipe é composta por profissionais dedicados e experientes que trabalham para garantir que nossos clientes recebam o melhor serviço possível.
+            Nós nos esforçamos para oferecer a melhor experiência de compras possível, desde a seleção de produtos até a entrega.
+            Nós acreditamos que as mulheres merecem ter acesso a roupas modernas e de qualidade a preços acessíveis. 
+            Estamos comprometidos em oferecer a melhor experiência de compras possível para nossos clientes. 
+            Se você está procurando por roupas modernas e de qualidade, a Lorena é o lugar certo para você.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Related -->
+    <section class="section featured">
+      <div class="top container">
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="row">
+        <div class="col d-flex">
+          <h4>INFORMAÇÕES</h4>
+          <a href="">Sobre Nós</a>
+          <a href="">Cadastro</a>
+          <a href="">Termos & Condições</a>
+          <a href="">Endereço</a>
+        </div>
+        <div class="col d-flex">
+          <h4>USEFUL LINK</h4>
+          <a href="">Online Store</a>
+          <a href="">Customer Services</a>
+          <a href="">Promotion</a>
+          <a href="">Top Brands</a>
+        </div>
+        <div class="col d-flex">
+          <span><i class='bx bxl-facebook-square'></i></span>
+          <span><i class='bx bxl-instagram-alt' ></i></span>
+          <span><i class='bx bxl-github' ></i></span>
+          <span><i class='bx bxl-twitter' ></i></span>
+          <span><i class='bx bxl-pinterest' ></i></span>
+        </div>
+      </div>
+    </footer>
+    <!-- Custom Script -->
+    <script src="./js/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.0.min.js"
+      integrity="sha384-JUMjoW8OzDJw4oFpWIB2Bu/c6768ObEthBMVSiIx4ruBIEdyNSUQAjJNFqT5pnJ6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/zoomsl.min.js"></script>
+    <script>
+      $(function () {
+        console.log("hello");
+        $("#zoom").imagezoomsl({
+          zoomrange: [4, 4],
+        });
+      });
+    </script>
+  </body>
+</html>
